@@ -2,9 +2,16 @@
 
 Server running on [Heroku](https://sonny-test-server.herokuapp.com/)
 
-## 1-Click Deployment
+## Deploying to Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/andreasonny83/node-test-server-ts">
+```
+$ heroku create
+$ git push heroku main
+$ heroku open
+```
+or
+
+<a href="https://heroku.com/deploy?template=https://github.com/andreasonny83/node-test-server-ts/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 

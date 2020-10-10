@@ -9,7 +9,7 @@
   "author": "Andrea Sonny <andreasonny83@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreasonny83/node-test-server-ts.git"
+    "url": "https://github.com/andreasonny83/node-test-server-ts"
   },
   "bugs": {
     "url": "https://github.com/andreasonny83/node-test-server-ts.git/issues"
@@ -19,8 +19,7 @@
   "scripts": {
     "build": "tsc",
     "start": "nodemon --inspect src/index.ts",
-    "preheroku:start": "tsc",
-    "heroku:start": "node dist/index.js"
+    "heroku:start": "tsc && node dist/index.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.8",
