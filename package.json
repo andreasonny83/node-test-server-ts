@@ -20,7 +20,7 @@
   "scripts": {
     "postinstall": "yarn tsc",
     "build": "tsc",
-    "dev": "nodemon --inspect src/index.ts",
+    "start": "nodemon --inspect src/index.ts",
     "tsc": "tsc"
   },
   "devDependencies": {

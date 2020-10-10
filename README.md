@@ -1,6 +1,6 @@
 # Node Test Server TypeScript
 
-Server running on [Heroku](https://sonny-test-server.herokuapp.com/)
+Server running on [Heroku](https://node-test-server-ts.herokuapp.com/)
 
 ## Deploying to Heroku
 
