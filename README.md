@@ -2,7 +2,7 @@
 
 Server running on [Heroku](https://sonny-test-server.herokuapp.com/)
 
-## 1 Click Deployment
+## 1-Click Deployment
 
 <a href="https://heroku.com/deploy?template=https://github.com/andreasonny83/node-test-server-ts">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
