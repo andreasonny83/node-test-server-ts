@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const PORT = Number(process.env.SERVER_PORT || 3001);
+const PORT = Number(process.env.SERVER_PORT);
 const NODE_ENV = process.env.NODE_ENV;
 
 export const config = {
