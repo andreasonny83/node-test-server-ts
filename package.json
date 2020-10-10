@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "engines": {
-    "node": "10.x"
+    "node": "10.x",
+    "yarn": "1.x"
   },
   "author": "Andrea Sonny <andreasonny83@gmail.com>",
   "repository": {
@@ -17,9 +18,10 @@
   "homepage": "https://github.com/andreasonny83/node-test-server-ts.git#readme",
   "license": "MIT",
   "scripts": {
+    "postinstall": "yarn tsc",
     "build": "tsc",
-    "start": "nodemon --inspect src/index.ts",
-    "heroku:start": "tsc && node dist/index.js"
+    "dev": "nodemon --inspect src/index.ts",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.8",
