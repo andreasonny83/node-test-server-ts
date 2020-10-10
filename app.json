@@ -1,0 +1,7 @@
+{
+  "name": "Node Test Server TS",
+  "description": "Sample Express Server in TypeScript",
+  "repository": "https://github.com/andreasonny83/node-test-server-ts",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "typescript"]
+}
